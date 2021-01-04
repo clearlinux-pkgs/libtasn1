@@ -1,5 +1,39 @@
 GNU Libtasn1 NEWS                                     -*- outline -*-
 
+* Noteworthy changes in release 4.16.0 (released 2020-02-01) [stable]
+- asn1_decode_simple_ber: added support for constructed definite
+  octet strings. This allows this function decode the whole set of
+  BER encodings for OCTET STRINGs.
+- asn1_get_object_id_der: enhance the range of decoded OIDs (#25).
+  This also makes OID encoding and decoding more strict on invalid
+  input. This may break gnutls' test suite before 3.6.12 as it was
+  relying on decoding some invalid OIDs.
+- asn1_object_id_der: New function
+
+
+* Noteworthy changes in release 4.15.0 (released 2019-11-21) [stable]
+- The generated tree no longer contains ASN.1 built-in types even
+  if they are explicitly defined in the description. Previously
+  a warning was printed when these types were seen, now they are
+  ignored.
+- Several fixes in ASN.1 definition parser, preventing several
+  crashes and leaks in the tools due to improper ASN.1.
+- Switched to semantic versioning.
+
+
+* Noteworthy changes in release 4.14 (released 2019-07-21) [stable]
+- New #defines for version checking: ASN1_VERSION_MAJOR, ASN1_VERSION_MINOR,
+  ASN1_VERSION_PATCH, ASN1_VERSION_NUMBER. The next release will switch
+  to semantic version semantics.
+- Simplify ordering of SET OF elements by using qsort().
+- Marked explicitly const uses of asn1_node with the introduction
+  of the (compatible) asn1_node_const type.
+- Limit recursion in _asn1_expand_object_id() to detect infinite
+  recursion in incorrect .asn files (#4).
+- asn1_array2tree(): fixed thread safety issues.
+- Several fixes in gtk-doc generation.
+
+
 * Noteworthy changes in release 4.13 (released 2018-01-16) [stable]
 - On indefinite string decoding, set a maximum level of allowed recursions
   (3) to protect the BER decoder from a stack exhaustion.
