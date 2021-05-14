@@ -1,5 +1,14 @@
 GNU Libtasn1 NEWS                                     -*- outline -*-
 
+* Noteworthy changes in release 4.17.0 (2021-05-13) [stable]
+- Print deprecation messages for deprecated macros, thanks to Tim Rühsen.
+- Fix some clang issues due to illegal pointers, thanks to Stefan Weil.
+- Restore handling of SIZE nodes, thanks to Dmitry Baryshkov.
+- Fix memory leak caught by oss-fuzz, thanks to Dmitry Baryshkov.
+- Gtk-doc fixes, thanks to Dmitry Baryshkov.
+- Fix bugs unveiled by Static Analysis, reported by Simo Sorce.
+- Update gnulib files and many build fixes.
+
 * Noteworthy changes in release 4.16.0 (released 2020-02-01) [stable]
 - asn1_decode_simple_ber: added support for constructed definite
   octet strings. This allows this function decode the whole set of
@@ -545,7 +554,7 @@ GNU Libtasn1 NEWS                                     -*- outline -*-
 - Initial release
 
 ----------------------------------------------------------------------
-Copyright (C) 2002-2014 Free Software Foundation, Inc.
+Copyright (C) 2002-2021 Free Software Foundation, Inc.
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
 notice and this notice are preserved.

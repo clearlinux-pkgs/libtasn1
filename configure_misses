@@ -1,4 +1,13 @@
 Configure miss: GTKDOC_DEPS
-Configure miss: whether -Wno-missing-field-initializers is needed
 Configure miss: GTKDOC_DEPS
+Configure miss: compiler option needed when checking for declarations
+Configure miss: compiler option needed when checking for declarations
+Configure miss: if gcc/ld supports -Wl,--output-def
+Configure miss: if gcc/ld supports -Wl,--output-def
 Configure miss: whether -Wno-missing-field-initializers is needed
+Configure miss: whether -Wno-missing-field-initializers is needed
+Configure miss: whether the compiler is clang
+Configure miss: whether the compiler is clang
+Configure miss: whether the compiler produces multi-arch binaries
+Configure miss: whether the compiler produces multi-arch binaries
+Configure miss: whether valgrind works on executables produced by the compiler
