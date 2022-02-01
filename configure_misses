@@ -2,8 +2,15 @@ Configure miss: GTKDOC_DEPS
 Configure miss: GTKDOC_DEPS
 Configure miss: compiler option needed when checking for declarations
 Configure miss: compiler option needed when checking for declarations
+Configure miss: crtdefs.h
+Configure miss: crtdefs.h
+Configure miss: gcc options needed to detect all undeclared functions
+Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: if gcc/ld supports -Wl,--output-def
 Configure miss: if gcc/ld supports -Wl,--output-def
+Configure miss: memset_s
+Configure miss: memset_s
+Configure miss: time_t past the year 2038
 Configure miss: whether -Wno-missing-field-initializers is needed
 Configure miss: whether -Wno-missing-field-initializers is needed
 Configure miss: whether the compiler is clang
