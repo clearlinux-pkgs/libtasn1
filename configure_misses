@@ -10,11 +10,18 @@ Configure miss: if gcc/ld supports -Wl,--output-def
 Configure miss: if gcc/ld supports -Wl,--output-def
 Configure miss: memset_s
 Configure miss: memset_s
+Configure miss: stdbool.h that conforms to C99 or later
+Configure miss: stdbool.h that conforms to C99 or later
+Configure miss: stdckdint.h
+Configure miss: stdckdint.h
 Configure miss: time_t past the year 2038
 Configure miss: whether -Wno-missing-field-initializers is needed
 Configure miss: whether -Wno-missing-field-initializers is needed
+Configure miss: whether ctype.h defines __header_inline
+Configure miss: whether ctype.h defines __header_inline
 Configure miss: whether the compiler is clang
 Configure miss: whether the compiler is clang
 Configure miss: whether the compiler produces multi-arch binaries
 Configure miss: whether the compiler produces multi-arch binaries
+Configure miss: whether valgrind works on executables produced by the compiler
 Configure miss: whether valgrind works on executables produced by the compiler

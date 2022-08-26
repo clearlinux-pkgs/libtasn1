@@ -1,5 +1,10 @@
 GNU Libtasn1 NEWS                                     -*- outline -*-
 
+* Noteworthy changes in release 4.19.0 (2022-08-23) [stable]
+- Clarify libtasn1.map license.  Closes: #38.
+- Fix ETYPE_OK out of bounds read.  Closes: #32.
+- Update gnulib files and various maintenance fixes.
+
 * Noteworthy changes in release 4.18.0 (2021-11-09) [stable]
 - Improve GTK-DOC manual.  Closes: #35.
 - Improve --help and --version for tools with gnulib.  Closes: #37.
@@ -559,7 +564,7 @@ GNU Libtasn1 NEWS                                     -*- outline -*-
 - Initial release
 
 ----------------------------------------------------------------------
-Copyright (C) 2002-2021 Free Software Foundation, Inc.
+Copyright (C) 2002-2022 Free Software Foundation, Inc.
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
 notice and this notice are preserved.
